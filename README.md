@@ -1,8 +1,35 @@
-<h1 align="center">🔠➡️💻 Text-to-Code Generation</h1>
+<div align="center">
 
-<p align="center">
-  <i>Transform natural language instructions into executable Python code using NLP & Large Language Models</i>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141e30,50:243b55,100:0f2027&height=220&section=header&text=Text-to-Code%20Generation&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=LLMs%20%7C%20NLP%20%7C%20Automated%20Python%20Code%20Generation&descAlignY=60&descSize=18&descColor=c9d1d9"/>
+
+<br/>
+
+[![Python](https://img.shields.io/badge/Python-3.8+-306998?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-EE4C2C?style=for-the-badge&logo=pytorch)](https://pytorch.org)
+[![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co)
+[![Flask](https://img.shields.io/badge/Flask-WebApp-000000?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com)
+
+<br/>
+
+> <b>Transform natural language instructions into executable Python code using NLP & Large Language Models</b>
+
+<br/>
+
+📄 <a href="https://github.com/aryansharma7341/Text-to-Code-Generation/blob/main/Documentation/Text_to_Code_Generator(Major_Project-01)_Group_Number_12.pdf">Documentation</a>
+
+</div>
+
+---
+
+## 📌 Table of Contents
+
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Model Performance](#-model-performance)
+- [Evaluation Insights](#-evaluation-insights)
+- [Use Cases](#-use-cases)
+- [Installation & Setup](#-installation--setup)
+- [Contributors](#-contributors)
 
 ---
 
@@ -14,7 +41,15 @@
   and contextual code generation.
 </p>
 
-<p>✨ **Key Features:**</p>
+<p>
+  The system is optimized using <strong>LoRA (Low-Rank Adaptation)</strong> and <strong>model quantization</strong> 
+  to ensure efficient training and inference with reduced computational cost.
+</p>
+
+---
+
+<h2>✨ Key Features</h2>
+
 <ul>
   <li>🔹 Fine-tuned <strong>GPT-Neo 2.7B</strong> for optimized code generation</li>
   <li>🔹 Utilizes <strong>LoRA (Low-Rank Adaptation)</strong> for efficient fine-tuning</li>
@@ -23,11 +58,9 @@
   <li>🔹 Trained on a dataset of <strong>18,000+ text-code pairs</strong></li>
 </ul>
 
-📄 **For more details**, check the <a href="https://github.com/aryansharma7341/Text-to-Code-Generation/blob/main/Documentation/Text_to_Code_Generator(Major_Project-01)_Group_Number_12.pdf">Documentation</a>.
-
 ---
 
-<h2>🛠️ Project Structure</h2>
+## 🛠️ Project Structure
 
 <pre>
 📂 Text-to-Code-Generation
@@ -62,7 +95,7 @@
 
 ---
 
-<h2>📊 Model Performance</h2>
+## 📊 Model Performance
 
 <table>
   <tr>
@@ -91,11 +124,30 @@
   </tr>
 </table>
 
-🔹 **Fine-tuned GPT-Neo 2.7B achieved an impressive BLEU Score of 79.4**, making it highly effective for text-to-code generation.
+<p>🔹 <strong>Fine-tuned GPT-Neo achieved a BLEU score of 79.4</strong>, demonstrating strong performance.</p>
 
 ---
 
-<h2>⚡ Installation & Setup</h2>
+## 🔍 Evaluation Insights
+
+- BLEU score measures **text similarity**, not execution correctness  
+- LoRA reduces **trainable parameters significantly (~90%)**  
+- Quantization improves **latency and memory efficiency**  
+- Better prompts → better generated code  
+
+---
+
+## 💡 Use Cases
+
+- 🧑‍💻 Code generation for beginners  
+- 📚 Educational assistance  
+- ⚙️ Script automation  
+- 🧪 Rapid prototyping  
+- 🤖 AI coding assistants  
+
+---
+
+## ⚡ Installation & Setup
 
 <h3>🛠 Prerequisites</h3>
 <ul>
@@ -103,32 +155,41 @@
   <li>✅ PyTorch</li>
   <li>✅ Hugging Face Transformers</li>
   <li>✅ Flask</li>
-  <li>✅ BitsAndBytes (for quantization)</li>
+  <li>✅ BitsAndBytes</li>
 </ul>
 
 <h3>🚀 Steps</h3>
 
 <pre>
-# Clone the repository
+# Clone repository
 git clone https://github.com/aryansharma7341/Text-to-Code-Generation.git
+
 cd Text-to-Code-Generation
 
-# Install required dependencies
 pip install -r requirements.txt
 
-# Run the Flask application
 cd web_application
 python app.py
 </pre>
 
 ---
 
-<h2>🏆 Contributors</h2>
-<p>👤 <strong>Aryan Sharma</strong><br>
-📧 <a href="aryansharma7341.as@gmail.com">Email</a><br>
-🔗 <a href="https://github.com/aryansharma7341">GitHub</a><br>
-🔗 <a href="www.linkedin.com/in/aryansharma7341">LinkedIn</a></p>
+<h2>👨‍💻 Contributors</h2>
+
+<div align="left">
+
+[![GitHub](https://img.shields.io/badge/GitHub-arryansharma1-181717?style=for-the-badge&logo=github)](https://github.com/arryansharma1)<br /><br />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-arryansharma-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/arryansharma/)<br /><br />
+[![Email](https://img.shields.io/badge/Email-aryansharma7341.as%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryansharma7341.as@gmail.com)
+
+</div>
 
 ---
 
-<p align="center">🌟 <strong>If you find this project useful, don't forget to ⭐ the repository!</strong> 🚀</p>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:243b55,100:141e30&height=120&section=footer"/>
+
+🌟 <strong>If you find this project useful, don't forget to ⭐ the repository!</strong>
+
+</div>
