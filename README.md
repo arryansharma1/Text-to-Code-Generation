@@ -1,30 +1,42 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141e30,50:243b55,100:0f2027&height=220&section=header&text=Text-to-Code%20Generation&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=LLMs%20%7C%20NLP%20%7C%20Automated%20Python%20Code%20Generation&descAlignY=60&descSize=18&descColor=c9d1d9"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Text-to-Code%20Generation&fontSize=42&fontColor=00d9ff&fontAlignY=38&desc=LLMs%20%7C%20NLP%20%7C%20GPT-Neo%202.7B%20%7C%20LoRA%20Fine-Tuning&descAlignY=58&descSize=16&descColor=a78bfa" />
 
 <br/>
 
-[![Python](https://img.shields.io/badge/Python-3.8+-306998?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-EE4C2C?style=for-the-badge&logo=pytorch)](https://pytorch.org)
-[![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co)
-[![Flask](https://img.shields.io/badge/Flask-WebApp-000000?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Transform+natural+language+into+Python+code+%F0%9F%A7%A0;Fine-tuned+GPT-Neo+2.7B+with+LoRA+%F0%9F%94%A5;BLEU+Score%3A+79.4+%E2%80%94+Trained+on+18K%2B+pairs+%F0%9F%8F%86;Real-time+Code+Generation+via+Flask+%F0%9F%9A%80" alt="Typing SVG" />
+
+<br/><br/>
+
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co)
+[![Flask](https://img.shields.io/badge/Flask-WebApp-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
+
+[![GitHub stars](https://img.shields.io/github/stars/arryansharma1/Text-to-Code-Generation?style=for-the-badge&color=f59e0b&labelColor=0d1117&logo=github)](https://github.com/arryansharma1/Text-to-Code-Generation/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/arryansharma1/Text-to-Code-Generation?style=for-the-badge&color=00d9ff&labelColor=0d1117&logo=github)](https://github.com/arryansharma1/Text-to-Code-Generation/network)
+[![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&labelColor=0d1117)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/arryansharma1/Text-to-Code-Generation?color=7c3aed&labelColor=0d1117&style=for-the-badge)](https://github.com/arryansharma1/Text-to-Code-Generation)
 
 <br/>
 
-> <b>Transform natural language instructions into executable Python code using NLP & Large Language Models</b>
+> ### *"The best code is the code you don't have to write — just describe it."*
 
 <br/>
 
-📄 <a href="https://github.com/aryansharma7341/Text-to-Code-Generation/blob/main/Documentation/Text_to_Code_Generator(Major_Project-01)_Group_Number_12.pdf">Documentation</a>
+📄 [View Full Documentation](https://github.com/aryansharma7341/Text-to-Code-Generation/blob/main/Documentation/Text_to_Code_Generator(Major_Project-01)_Group_Number_12.pdf)
 
 </div>
 
 ---
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ## 📌 Table of Contents
 
 - [Overview](#-overview)
 - [Key Features](#-key-features)
+- [Project Structure](#-project-structure)
 - [Model Performance](#-model-performance)
 - [Evaluation Insights](#-evaluation-insights)
 - [Use Cases](#-use-cases)
@@ -33,154 +45,172 @@
 
 ---
 
-<h2>📌 Overview</h2>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<p>
-  This project leverages <strong>GPT-Neo 2.7B</strong> to automatically generate Python code from text-based instructions. 
-  By fine-tuning the model with the <strong>iamtarun/python_code_instructions_18k_alpaca dataset</strong>, we enable precise 
-  and contextual code generation.
-</p>
+## 📌 Overview
 
-<p>
-  The system is optimized using <strong>LoRA (Low-Rank Adaptation)</strong> and <strong>model quantization</strong> 
-  to ensure efficient training and inference with reduced computational cost.
-</p>
+<img align="right" width="280" src="https://media.giphy.com/media/zOvBKUUEERdNm/giphy.gif"/>
 
----
+This project leverages **GPT-Neo 2.7B** to automatically generate Python code from natural language instructions. By fine-tuning on the **iamtarun/python_code_instructions_18k_alpaca** dataset, the model learns precise, contextual code generation from over 18,000 text-code pairs.
 
-<h2>✨ Key Features</h2>
+The system is optimized using **LoRA (Low-Rank Adaptation)** and **model quantization** — drastically reducing trainable parameters and computational cost without sacrificing output quality.
 
-<ul>
-  <li>🔹 Fine-tuned <strong>GPT-Neo 2.7B</strong> for optimized code generation</li>
-  <li>🔹 Utilizes <strong>LoRA (Low-Rank Adaptation)</strong> for efficient fine-tuning</li>
-  <li>🔹 <strong>Model Quantization</strong> for reduced computational requirements</li>
-  <li>🔹 <strong>Web Application</strong> for real-time code generation</li>
-  <li>🔹 Trained on a dataset of <strong>18,000+ text-code pairs</strong></li>
-</ul>
+📄 For full methodology, refer to the [Documentation](https://github.com/aryansharma7341/Text-to-Code-Generation/blob/main/Documentation/Text_to_Code_Generator(Major_Project-01)_Group_Number_12.pdf).
+
+<br clear="right"/>
 
 ---
 
-## 🛠️ Project Structure
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<pre>
-📂 Text-to-Code-Generation
+## ✨ Key Features
+
+<div align="center">
+
+| ⚡ Feature | 📋 Description |
+|:---|:---|
+| 🤖 **GPT-Neo 2.7B** | Fine-tuned large language model for Python code generation |
+| 🔧 **LoRA Fine-Tuning** | Reduces trainable parameters by ~90% for efficient training |
+| 📦 **Model Quantization** | Cuts memory usage and improves inference latency |
+| 🌐 **Web Application** | Flask-based UI for real-time, interactive code generation |
+| 📚 **18K+ Training Pairs** | Trained on diverse text-to-code instruction dataset |
+
+</div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 🗂️ Project Structure
+
+```
+📦 Text-to-Code-Generation/
 │
-├── 🗂️ dataset_processing
+├── 📁 dataset_processing/
 │   ├── preprocess_data.py
 │   ├── dataset_statistics.py
-│   ├── tokenizer_setup.py
+│   └── tokenizer_setup.py
 │
-├── 🏗️ model_training
+├── 📁 model_training/
 │   ├── train_gpt_neo.py
 │   ├── fine_tune_LoRA.py
 │   ├── model_quantization.py
 │   └── evaluation.py
 │
-├── 🚀 inference
+├── 📁 inference/
 │   ├── generate_code.py
 │   ├── test_cases.py
 │   └── performance_benchmark.py
 │
-├── 🌐 web_application
+├── 📁 web_application/
 │   ├── app.py
 │   ├── templates/
 │   ├── static/
 │   └── api.py
 │
-└── 📖 documentation
+└── 📁 documentation/
     ├── model_architecture.md
     ├── dataset_details.md
-    ├── optimization_techniques.md
-</pre>
+    └── optimization_techniques.md
+```
 
 ---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📊 Model Performance
 
-<table>
-  <tr>
-    <th>Model</th>
-    <th>Dataset</th>
-    <th>BLEU Score</th>
-    <th>Training Time</th>
-  </tr>
-  <tr>
-    <td><b>GPT-Neo 2.7B (LoRA Fine-Tuned)</b></td>
-    <td>Python_Code_Instructions_18K</td>
-    <td><b>79.4</b></td>
-    <td>8 hours</td>
-  </tr>
-  <tr>
-    <td>GPT-3.5 (API-based)</td>
-    <td>OpenAI Code Dataset</td>
-    <td>82.1</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>CodeT5</td>
-    <td>CodeSearchNet</td>
-    <td>75.8</td>
-    <td>12 hours</td>
-  </tr>
-</table>
+<div align="center">
 
-<p>🔹 <strong>Fine-tuned GPT-Neo achieved a BLEU score of 79.4</strong>, demonstrating strong performance.</p>
+| Model | Dataset | BLEU Score | Training Time | Status |
+|:---:|:---:|:---:|:---:|:---:|
+| 🏆 **GPT-Neo 2.7B (LoRA)** | Python_Code_18K | **79.4** | 8 hours | ✅ Best (local) |
+| GPT-3.5 (API) | OpenAI Code Dataset | 82.1 | N/A | ☑️ Reference |
+| CodeT5 | CodeSearchNet | 75.8 | 12 hours | ☑️ Tested |
+
+</div>
+
+<br/>
+
+> 🏆 Our **fine-tuned GPT-Neo 2.7B with LoRA** achieves a **BLEU score of 79.4** — competitive with commercial API-based models while running fully locally with minimal compute.
 
 ---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🔍 Evaluation Insights
 
-- BLEU score measures **text similarity**, not execution correctness  
-- LoRA reduces **trainable parameters significantly (~90%)**  
-- Quantization improves **latency and memory efficiency**  
-- Better prompts → better generated code  
+<div align="center">
+
+| 🔎 Insight | 💡 Details |
+|:---|:---|
+| 📏 **BLEU Score** | Measures text similarity — not execution correctness |
+| ⚙️ **LoRA Efficiency** | Reduces trainable parameters by ~90% vs full fine-tuning |
+| 🚀 **Quantization** | Improves latency and cuts memory footprint significantly |
+| 💬 **Prompt Quality** | Better-structured prompts yield higher-quality code output |
+
+</div>
 
 ---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 💡 Use Cases
 
-- 🧑‍💻 Code generation for beginners  
-- 📚 Educational assistance  
-- ⚙️ Script automation  
-- 🧪 Rapid prototyping  
-- 🤖 AI coding assistants  
+<div align="center">
+
+| 🎯 Use Case | 📝 Description |
+|:---:|:---|
+| 🧑‍💻 **Beginner Coding** | Generate boilerplate code from plain English descriptions |
+| 📚 **Education** | Help students learn by showing code for what they describe |
+| ⚙️ **Script Automation** | Auto-generate utility scripts from task descriptions |
+| 🧪 **Rapid Prototyping** | Quickly scaffold functions and modules for testing ideas |
+| 🤖 **AI Coding Assistants** | Power next-gen developer tools and IDE plugins |
+
+</div>
 
 ---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## ⚡ Installation & Setup
 
-<h3>🛠 Prerequisites</h3>
-<ul>
-  <li>✅ Python 3.8+</li>
-  <li>✅ PyTorch</li>
-  <li>✅ Hugging Face Transformers</li>
-  <li>✅ Flask</li>
-  <li>✅ BitsAndBytes</li>
-</ul>
+### Prerequisites
 
-<h3>🚀 Steps</h3>
+![Python](https://img.shields.io/badge/Python_3.8+-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![BitsAndBytes](https://img.shields.io/badge/BitsAndBytes-Quantization-7c3aed?style=flat-square)
 
-<pre>
-# Clone repository
-git clone https://github.com/aryansharma7341/Text-to-Code-Generation.git
+### Steps
 
+```bash
+# 📥 Clone the repository
+git clone https://github.com/arryansharma1/Text-to-Code-Generation.git
+
+# 📂 Navigate into the folder
 cd Text-to-Code-Generation
 
+# 📦 Install dependencies
 pip install -r requirements.txt
 
+# 🚀 Run the web application
 cd web_application
 python app.py
-</pre>
+```
 
 ---
 
-<h2>👨‍💻 Contributors</h2>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<div align="left">
+## 👨‍💻 Contributors
 
-[![GitHub](https://img.shields.io/badge/GitHub-arryansharma1-181717?style=for-the-badge&logo=github)](https://github.com/arryansharma1)<br /><br />
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-arryansharma-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/arryansharma/)<br /><br />
-[![Email](https://img.shields.io/badge/Email-aryansharma7341.as%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryansharma7341.as@gmail.com)
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-arryansharma1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arryansharma1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-arryansharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arryansharma/)
+[![Email](https://img.shields.io/badge/Email-aryansharma7341.as@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryansharma7341.as@gmail.com)
 
 </div>
 
@@ -188,8 +218,12 @@ python app.py
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:243b55,100:141e30&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&text=Thanks+for+visiting!+%F0%9F%A4%96&fontSize=24&fontColor=00d9ff&fontAlignY=65"/>
 
-🌟 <strong>If you find this project useful, don't forget to ⭐ the repository!</strong>
+<br/>
+
+🌟 **If you find this project useful, don't forget to ⭐ the repository!**
+
+![Visitor Count](https://komarev.com/ghpvc/?username=arryansharma1&color=00d9ff&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
