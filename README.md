@@ -28,8 +28,6 @@
 
 </div>
 
----
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📌 Table of Contents
@@ -42,8 +40,6 @@
 - [Use Cases](#-use-cases)
 - [Installation & Setup](#-installation--setup)
 - [Contributors](#-contributors)
-
----
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -58,8 +54,6 @@ The system is optimized using **LoRA (Low-Rank Adaptation)** and **model quantiz
 📄 For full methodology, refer to the [Documentation](https://github.com/aryansharma7341/Text-to-Code-Generation/blob/main/Documentation/Text_to_Code_Generator(Major_Project-01)_Group_Number_12.pdf).
 
 <br clear="right"/>
-
----
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -76,8 +70,6 @@ The system is optimized using **LoRA (Low-Rank Adaptation)** and **model quantiz
 | 📚 **18K+ Training Pairs** | Trained on diverse text-to-code instruction dataset |
 
 </div>
-
----
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -114,8 +106,6 @@ The system is optimized using **LoRA (Low-Rank Adaptation)** and **model quantiz
     └── optimization_techniques.md
 ```
 
----
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📊 Model Performance
@@ -134,8 +124,6 @@ The system is optimized using **LoRA (Low-Rank Adaptation)** and **model quantiz
 
 > 🏆 Our **fine-tuned GPT-Neo 2.7B with LoRA** achieves a **BLEU score of 79.4** — competitive with commercial API-based models while running fully locally with minimal compute.
 
----
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🔍 Evaluation Insights
@@ -150,8 +138,6 @@ The system is optimized using **LoRA (Low-Rank Adaptation)** and **model quantiz
 | 💬 **Prompt Quality** | Better-structured prompts yield higher-quality code output |
 
 </div>
-
----
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -168,8 +154,6 @@ The system is optimized using **LoRA (Low-Rank Adaptation)** and **model quantiz
 | 🤖 **AI Coding Assistants** | Power next-gen developer tools and IDE plugins |
 
 </div>
-
----
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -199,8 +183,6 @@ pip install -r requirements.txt
 cd web_application
 python app.py
 ```
-
----
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
